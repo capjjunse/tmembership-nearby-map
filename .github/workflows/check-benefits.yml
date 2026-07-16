@@ -1,0 +1,48 @@
+name: T멤버십 상시혜택 자동 확인
+
+on:
+  schedule:
+      # 매주 월요일 09:00 KST(00:00 UTC)에 실행
+          - cron: "0 0 * * 1"
+            workflow_dispatch: {} # Actions 탭에서 수동 실행도 가능
+
+            permissions:
+              contents: write
+                pull-requests: write
+
+                jobs:
+                  check-benefits:
+                      runs-on: ubuntu-latest
+                          steps:
+                                - uses: actions/checkout@v4
+
+                                      - uses: actions/setup-python@v5
+                                              with:
+                                                        python-version: "3.12"
+
+                                                              - name: 의존성 설치
+                                                                      run: pip install -r scripts/requirements.txt
+
+                                                                            - name: 공식 페이지 확인 및 benefits.json 갱신
+                                                                                    id: check
+                                                                                            run: |
+                                                                                                      if python3 scripts/check_benefits.py; then
+                                                                                                                  echo "changed=false" >> "$GITHUB_OUTPUT"
+                                                                                                                            else
+                                                                                                                                        echo "changed=true" >> "$GITHUB_OUTPUT"
+                                                                                                                                                  fi
+                                                                                                                                                  
+                                                                                                                                                        - name: 변경 시 PR 생성
+                                                                                                                                                                if: steps.check.outputs.changed == 'true'
+                                                                                                                                                                        uses: peter-evans/create-pull-request@v6
+                                                                                                                                                                                with:
+                                                                                                                                                                                          commit-message: "혜택 데이터 자동 업데이트 (공식 카탈로그 기준)"
+                                                                                                                                                                                                    title: "🔄 T멤버십 상시혜택 변경 감지"
+                                                                                                                                                                                                              body: |
+                                                                                                                                                                                                                          공식 카탈로그(`https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/list-tab2.do`)를
+                                                                                                                                                                                                                                      전체(183개 브랜드) 다시 긁어서 기존 `benefits.json`과 비교한 결과 변경이 감지되어 자동으로 열린 PR입니다.
+                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                  **바로 병합되지 않습니다.** 아래 diff를 확인하고 문제없으면 직접 Merge 해주세요.
+                                                                                                                                                                                                                                                            branch: auto/benefits-update
+                                                                                                                                                                                                                                                                      delete-branch: true
+                                                                                                                                                                                                                                                                      
