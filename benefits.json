@@ -1,5 +1,4 @@
 {
-  "updated_at": "2026.07.16",
   "source": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/list-tab2.do",
   "source_detail": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId={id}",
   "categories": [
@@ -7,120 +6,120 @@
       "id": "movie",
       "label": "영화/공연/전시",
       "color": "#7c5cff",
-      "location_type": "store",
-      "icon": "🎬"
+      "icon": "🎬",
+      "location_type": "store"
     },
     {
       "id": "bakery",
       "label": "베이커리",
       "color": "#ff8a5c",
-      "location_type": "store",
-      "icon": "🥐"
+      "icon": "🥐",
+      "location_type": "store"
     },
     {
       "id": "dining",
       "label": "외식",
       "color": "#ff5c8a",
-      "location_type": "store",
-      "icon": "🍽️"
+      "icon": "🍽️",
+      "location_type": "store"
     },
     {
       "id": "cafe",
       "label": "카페/아이스크림",
       "color": "#22b8cf",
-      "location_type": "store",
-      "icon": "☕"
+      "icon": "☕",
+      "location_type": "store"
     },
     {
       "id": "pizza",
       "label": "피자/치킨",
       "color": "#ff5c5c",
-      "location_type": "store",
-      "icon": "🍕"
+      "icon": "🍕",
+      "location_type": "store"
     },
     {
       "id": "cvs",
       "label": "편의점",
       "color": "#22c55e",
-      "location_type": "store",
-      "icon": "🏪"
+      "icon": "🏪",
+      "location_type": "store"
     },
     {
       "id": "traffic",
       "label": "교통",
       "color": "#16a34a",
-      "location_type": "store",
-      "icon": "🚗"
+      "icon": "🚗",
+      "location_type": "store"
     },
     {
       "id": "kids",
       "label": "키즈(ZEM)",
       "color": "#fb923c",
-      "location_type": "store",
-      "icon": "🧸"
+      "icon": "🧸",
+      "location_type": "store"
     },
     {
       "id": "theme",
       "label": "테마파크",
       "color": "#ef4444",
-      "location_type": "store",
-      "icon": "🎢"
+      "icon": "🎢",
+      "location_type": "store"
     },
     {
       "id": "shopping",
       "label": "쇼핑",
       "color": "#fbbf24",
-      "location_type": "online",
-      "icon": "🛍️"
+      "icon": "🛍️",
+      "location_type": "online"
     },
     {
       "id": "fashion",
       "label": "패션/뷰티",
       "color": "#ec4899",
-      "location_type": "online",
-      "icon": "💄"
+      "icon": "💄",
+      "location_type": "online"
     },
     {
       "id": "travel",
       "label": "여행",
       "color": "#06b6d4",
-      "location_type": "online",
-      "icon": "✈️"
+      "icon": "✈️",
+      "location_type": "online"
     },
     {
       "id": "pet",
       "label": "반려동물",
       "color": "#f472b6",
-      "location_type": "online",
-      "icon": "🐾"
+      "icon": "🐾",
+      "location_type": "online"
     },
     {
       "id": "life",
       "label": "생활/건강",
       "color": "#a78bfa",
-      "location_type": "online",
-      "icon": "🧺"
+      "icon": "🧺",
+      "location_type": "online"
     },
     {
       "id": "finance",
       "label": "금융/통신",
       "color": "#64748b",
-      "location_type": "online",
-      "icon": "💳"
+      "icon": "💳",
+      "location_type": "online"
     },
     {
       "id": "education",
       "label": "교육",
       "color": "#3b82f6",
-      "location_type": "online",
-      "icon": "📚"
+      "icon": "📚",
+      "location_type": "online"
     },
     {
       "id": "content",
       "label": "콘텐츠",
       "color": "#8b5cf6",
-      "location_type": "online",
-      "icon": "🎵"
+      "icon": "🎵",
+      "location_type": "online"
     }
   ],
   "benefits": [
@@ -201,22 +200,6 @@
       "verified": "scraped"
     },
     {
-      "id": "b1097",
-      "name": "열린베이커리",
-      "keyword": "열린베이커리",
-      "cat": "bakery",
-      "location_type": "store",
-      "tiers": [
-        [
-          "전 등급",
-          "10% 할인(오프라인)"
-        ]
-      ],
-      "note": "",
-      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=1097",
-      "verified": "scraped"
-    },
-    {
       "id": "b62",
       "name": "브레댄코",
       "keyword": "브레댄코",
@@ -233,6 +216,22 @@
       "verified": "scraped"
     },
     {
+      "id": "b1097",
+      "name": "열린베이커리",
+      "keyword": "열린베이커리",
+      "cat": "bakery",
+      "location_type": "store",
+      "tiers": [
+        [
+          "전 등급",
+          "10% 할인(오프라인)"
+        ]
+      ],
+      "note": "",
+      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=1097",
+      "verified": "scraped"
+    },
+    {
       "id": "b1173",
       "name": "아웃백 스테이크하우스",
       "keyword": "아웃백 스테이크하우스",
@@ -241,11 +240,11 @@
       "tiers": [
         [
           "VIP / Gold",
-          "15% 할인"
+          "15% 할인 (1일 1회, 일 최대 20,000원 / 월 최대 4회 이용 가능)"
         ],
         [
           "Silver",
-          "5% 할인"
+          "5% 할인 (1일 1회, 일 최대 10,000원 / 월 최대 4회 이용 가능)"
         ]
       ],
       "note": "",
@@ -429,6 +428,22 @@
       "verified": "scraped"
     },
     {
+      "id": "b5246",
+      "name": "샐러디",
+      "keyword": "샐러디",
+      "cat": "dining",
+      "location_type": "store",
+      "tiers": [
+        [
+          "전 등급",
+          "모든 메뉴 10% 할인(최대 20,000원)"
+        ]
+      ],
+      "note": "",
+      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5246",
+      "verified": "scraped"
+    },
+    {
       "id": "b5779",
       "name": "히바린",
       "keyword": "히바린",
@@ -525,11 +540,11 @@
       "tiers": [
         [
           "VIP / Gold",
-          "15% 할인"
+          "15% 할인(1일 1회)"
         ],
         [
           "Silver",
-          "5% 할인"
+          "5% 할인(1일 1회)"
         ]
       ],
       "note": "",
@@ -1129,7 +1144,7 @@
       "tiers": [
         [
           "전 등급",
-          "통합 4종 할인 혜택(1회 청소 5,000원+정기 서비스 2,000원+이사/입주 청소 20,000원+세탁기 청소 10,000원+에어컨 청소 7%)"
+          "통합 3종 할인 혜택(1회 청소 5,000원+정기 서비스 2,000원+이사/입주 청소 20,000원+세탁기 청소 10,000원)"
         ]
       ],
       "note": "",
@@ -1401,22 +1416,6 @@
       "verified": "scraped"
     },
     {
-      "id": "b5366",
-      "name": "동구밭",
-      "keyword": "동구밭",
-      "cat": "shopping",
-      "location_type": "online",
-      "tiers": [
-        [
-          "전 등급",
-          "모든 상품 10% 할인"
-        ]
-      ],
-      "note": "",
-      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5366",
-      "verified": "scraped"
-    },
-    {
       "id": "b5715",
       "name": "제주삼다수",
       "keyword": "제주삼다수",
@@ -1430,6 +1429,22 @@
       ],
       "note": "",
       "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5715",
+      "verified": "scraped"
+    },
+    {
+      "id": "b5366",
+      "name": "동구밭",
+      "keyword": "동구밭",
+      "cat": "shopping",
+      "location_type": "online",
+      "tiers": [
+        [
+          "전 등급",
+          "모든 상품 10% 할인"
+        ]
+      ],
+      "note": "",
+      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5366",
       "verified": "scraped"
     },
     {
@@ -1705,22 +1720,6 @@
       "verified": "scraped"
     },
     {
-      "id": "b5927",
-      "name": "아로마티카",
-      "keyword": "아로마티카",
-      "cat": "fashion",
-      "location_type": "online",
-      "tiers": [
-        [
-          "전 등급",
-          "① 모든 제품 10% 할인(3만 원 이상 구매 시 최대 5만 원 할인) ② 리필 제품 15% 할인(1만 원 이상 구매 시 최대 1만 원 할인)"
-        ]
-      ],
-      "note": "",
-      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5927",
-      "verified": "scraped"
-    },
-    {
       "id": "b5916",
       "name": "아떼",
       "keyword": "아떼",
@@ -1737,35 +1736,19 @@
       "verified": "scraped"
     },
     {
-      "id": "b5445",
-      "name": "쿤달",
-      "keyword": "쿤달",
+      "id": "b5927",
+      "name": "아로마티카",
+      "keyword": "아로마티카",
       "cat": "fashion",
       "location_type": "online",
       "tiers": [
         [
           "전 등급",
-          "10% 할인(최대 2만 원 할인)"
+          "① 모든 제품 10% 할인(3만 원 이상 구매 시 최대 5만 원 할인) ② 리필 제품 15% 할인(1만 원 이상 구매 시 최대 1만 원 할인)"
         ]
       ],
       "note": "",
-      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5445",
-      "verified": "scraped"
-    },
-    {
-      "id": "b5340",
-      "name": "에필로우",
-      "keyword": "에필로우",
-      "cat": "fashion",
-      "location_type": "online",
-      "tiers": [
-        [
-          "전 등급",
-          "20% 할인"
-        ]
-      ],
-      "note": "",
-      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5340",
+      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5927",
       "verified": "scraped"
     },
     {
@@ -1782,6 +1765,22 @@
       ],
       "note": "",
       "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5796",
+      "verified": "scraped"
+    },
+    {
+      "id": "b5340",
+      "name": "에필로우",
+      "keyword": "에필로우",
+      "cat": "fashion",
+      "location_type": "online",
+      "tiers": [
+        [
+          "전 등급",
+          "20% 할인"
+        ]
+      ],
+      "note": "",
+      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5340",
       "verified": "scraped"
     },
     {
@@ -1929,7 +1928,7 @@
       "tiers": [
         [
           "전 등급",
-          "① 파고다어학원 20% 할인 ② 파고다토쿨 10,000원 할인 ③ 파고다인강 10% 할인 ④ 파고다원 5% 할인"
+          "① 파고다어학원 20% 할인 ② 파고다인강 10% 할인 ③ 파고다원 5% 할인 ④ 파고다토쿨 10,000원 할인"
         ]
       ],
       "note": "",
@@ -2017,22 +2016,6 @@
       "verified": "scraped"
     },
     {
-      "id": "b5758",
-      "name": "노트미",
-      "keyword": "노트미",
-      "cat": "education",
-      "location_type": "online",
-      "tiers": [
-        [
-          "전 등급",
-          "노트미 이용권 20% 중복 할인"
-        ]
-      ],
-      "note": "",
-      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5758",
-      "verified": "scraped"
-    },
-    {
       "id": "b6012",
       "name": "해커스",
       "keyword": "해커스",
@@ -2046,6 +2029,22 @@
       ],
       "note": "",
       "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=6012",
+      "verified": "scraped"
+    },
+    {
+      "id": "b5758",
+      "name": "노트미",
+      "keyword": "노트미",
+      "cat": "education",
+      "location_type": "online",
+      "tiers": [
+        [
+          "전 등급",
+          "노트미 이용권 20% 중복 할인"
+        ]
+      ],
+      "note": "",
+      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5758",
       "verified": "scraped"
     },
     {
@@ -2262,22 +2261,6 @@
       ],
       "note": "",
       "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5141",
-      "verified": "scraped"
-    },
-    {
-      "id": "b5240",
-      "name": "아시아나 인터넷 면세점",
-      "keyword": "아시아나 인터넷 면세점",
-      "cat": "travel",
-      "location_type": "online",
-      "tiers": [
-        [
-          "전 등급",
-          "인터넷 면세점 10% 할인 쿠폰 제공(월 1회, 최대 10만 원 할인)"
-        ]
-      ],
-      "note": "",
-      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5240",
       "verified": "scraped"
     },
     {
@@ -2637,7 +2620,7 @@
       "tiers": [
         [
           "전 등급",
-          "티니핑월드 이용권(평일/주말) 아동 1명+성인 1명 입장권 20% 현장 할인(동반 5명 포함 최대 7명 할인 가능)"
+          "티니핑월드 스탠다드 이용권(평일/주말) 아동 1명+성인 1명 입장권 20% 현장 할인(동반 5명 포함 최대 7명 할인 가능)"
         ]
       ],
       "note": "",
@@ -2905,22 +2888,6 @@
       "verified": "scraped"
     },
     {
-      "id": "b1067",
-      "name": "파라다이스스파도고",
-      "keyword": "파라다이스스파도고",
-      "cat": "theme",
-      "location_type": "store",
-      "tiers": [
-        [
-          "전 등급",
-          "20% 할인 (본인 및 동반 3인까지)"
-        ]
-      ],
-      "note": "",
-      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=1067",
-      "verified": "scraped"
-    },
-    {
       "id": "b5225",
       "name": "캐리비안 베이",
       "keyword": "캐리비안 베이",
@@ -2934,6 +2901,22 @@
       ],
       "note": "",
       "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5225",
+      "verified": "scraped"
+    },
+    {
+      "id": "b1067",
+      "name": "파라다이스스파도고",
+      "keyword": "파라다이스스파도고",
+      "cat": "theme",
+      "location_type": "store",
+      "tiers": [
+        [
+          "전 등급",
+          "20% 할인 (본인 및 동반 3인까지)"
+        ]
+      ],
+      "note": "",
+      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=1067",
       "verified": "scraped"
     },
     {
@@ -2953,22 +2936,6 @@
       "verified": "scraped"
     },
     {
-      "id": "b1156",
-      "name": "경주뽀로로아쿠아빌리지",
-      "keyword": "경주뽀로로아쿠아빌리지",
-      "cat": "theme",
-      "location_type": "store",
-      "tiers": [
-        [
-          "전 등급",
-          "본인 35% 할인 (동반 2인까지 적용)"
-        ]
-      ],
-      "note": "",
-      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=1156",
-      "verified": "scraped"
-    },
-    {
       "id": "b5325",
       "name": "롯데월드 어드벤처 부산",
       "keyword": "롯데월드 어드벤처 부산",
@@ -2982,6 +2949,22 @@
       ],
       "note": "",
       "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5325",
+      "verified": "scraped"
+    },
+    {
+      "id": "b1156",
+      "name": "경주뽀로로아쿠아빌리지",
+      "keyword": "경주뽀로로아쿠아빌리지",
+      "cat": "theme",
+      "location_type": "store",
+      "tiers": [
+        [
+          "전 등급",
+          "본인 35% 할인 (동반 2인까지 적용)"
+        ]
+      ],
+      "note": "",
+      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=1156",
       "verified": "scraped"
     },
     {
@@ -3037,6 +3020,22 @@
       "verified": "scraped"
     },
     {
+      "id": "b5972",
+      "name": "여수 유월드",
+      "keyword": "여수 유월드",
+      "cat": "theme",
+      "location_type": "store",
+      "tiers": [
+        [
+          "전 등급",
+          "여수 유월드 자유 이용권 40% 할인"
+        ]
+      ],
+      "note": "",
+      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5972",
+      "verified": "scraped"
+    },
+    {
       "id": "b5192",
       "name": "대구아쿠아리움",
       "keyword": "대구아쿠아리움",
@@ -3066,22 +3065,6 @@
       ],
       "note": "",
       "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5155",
-      "verified": "scraped"
-    },
-    {
-      "id": "b5972",
-      "name": "여수 유월드",
-      "keyword": "여수 유월드",
-      "cat": "theme",
-      "location_type": "store",
-      "tiers": [
-        [
-          "전 등급",
-          "여수 유월드 자유 이용권 40% 할인"
-        ]
-      ],
-      "note": "",
-      "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5972",
       "verified": "scraped"
     },
     {
@@ -3180,5 +3163,6 @@
       "link": "https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=5994",
       "verified": "scraped"
     }
-  ]
+  ],
+  "updated_at": "2026.09.07"
 }
